@@ -8,9 +8,10 @@ def secondLargestValue(n,arr):
                 secondBig=arr[i]
             elif i ==n+1:
                 if arr[i]>secondBig:
+                    
                     secondBig = arr[i]
 
-    print (secondBig)
+    # print (secondBig)
 
 ## Alternatives
 # def runnerUp(n,arr):
